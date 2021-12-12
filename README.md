@@ -1,4 +1,4 @@
-# Deployed Data Science Project Sample
+# Analyzing dataset to find possible pattern in crime
 
 
 ## Introduction
@@ -6,14 +6,13 @@ The reason for this project is to apply and practice the knowledge learned in Da
 
 ## Selection of Data
 
-The model processing and training are conducted using a Jupyter Notebook and is available [here](https://github.com/memoatwit/dsexample/blob/master/Insurance%20-%20Model%20Training%20Notebook.ipynb).
+The model processing is conducted using a Jupyter Notebook and is available [here](https://github.com/liur1wit/DS_Final/blob/main/Final%20Project.ipynb).
 
-The data has over 1,300 samples with 6 features: age, sex, BMI, no of children, smoker, region.  
-The objective is to predict hospital charges.
-The dataset can found online at [git](https://github.com/stedy/Machine-Learning-with-R-datasets)[4]. Many example solutions and analysis can be found at [kaggle](https://www.kaggle.com/mirichoi0218/insurance) [5]
+The data has over 638454 cases with 24 features. The data was compiled and made available by the Murder Accountability Project, founded by Thomas Hargrove. The dataset includes the age, race, gender, ethnicity of the victim and the perpetrator, as well as the relationship between the victim and the perpetrator and the weapon used. I use drop table to remove some columns that are not useful for the data analysis set.
+The dataset can found online at [kaggle](https://www.kaggle.com/murderaccountability/homicide-reports)[4]. 
 
 Data preview: 
-![data screenshot](./insurance_data.png)
+![data screenshot](./preview.jpg)
 
 
 Note that data has categorical features in 3 cols: sex, smoker, and region.
