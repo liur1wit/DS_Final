@@ -30,7 +30,6 @@ Tools:
 
 ![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/number%20of%20crimes.PNG)
 
-There were total 14663963 crimes happened during 1980 to 2014.
 
 ![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/dataset%20Overview.PNG)
 
