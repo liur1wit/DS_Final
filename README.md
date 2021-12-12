@@ -15,15 +15,8 @@ Data preview:
 ![data screenshot](./preview.jpg)
 
 
-Note that data has categorical features in 3 cols: sex, smoker, and region.
-I used OneHotEncoder/ColumnTransformer on these features and kept the rest of the features as is.
-When using a linear regression model, the learning accuracy shoots up from 12% to 75% with this transformation. 
-
-We then create a pipeline for automating the process for new data. I also experimented with different imputer strategies for missing data and added second-degree polynomial features for both the numeric and categorical data. The shown values are obtained by performing a grid search over these arguments. 
-Pipeline preview: 
-![pipeline screenshot](./pipeline.png)
-
-I finally saved the model via joblib to be used for predictions by the web app. 
+Since the contents of many columns in the original dataset are unchanged, it is not helpful for the analysis, so I dropped some columns.
+![data screenshot](./new.PNG)
 
 ## Methods
 
