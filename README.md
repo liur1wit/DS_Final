@@ -2,13 +2,7 @@
 
 
 ## Introduction
-The objective of this project is to practice using the Heroku platform as a service (PaaS) for the automatic deployment of a machine learning web app. I was curious to learn if I could create and push such a project in a few hours. Your objective may be to provide a data-insightful solution to a specific problem that excites you using the tools discussed (or related to) in this course.
-
-This project is inspired by the [the pycaret post](https://towardsdatascience.com/build-and-deploy-machine-learning-web-app-using-pycaret-and-streamlit-28883a569104) [3]. I kept their web app setup but replaced pycaret with pre-preprocessing using numpy/pandas and predictions using scikit. This allowed my free-tier Heroku pod to be significantly smaller and faster. 
-
-Since Heroku also enables integration with GitHub, it also [automatically builds and releases](https://devcenter.heroku.com/articles/github-integration) any updates to my git repo [1]. 
-
-I wanted to ease the web app development and [Streamlit](https://www.streamlit.io/) made this possible [2]. It is an open-source library that focuses on data science and ML web app development. 
+The reason for this project is to apply and practice the knowledge learned in Data Science Fundamental this semester. Through data analysis, discover the pattern between the criminal and the victim or the possible crime pattern to help people avoid possible risks.
 
 ## Selection of Data
 
