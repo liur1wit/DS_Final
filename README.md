@@ -29,9 +29,11 @@ Tools:
 ## Results
 
 ![data screenshot](./number of crimes.PNG)
+
 There were total 14663963 crimes happened during 1980 to 2014.
 
 ![data screenshot](./dataset Overview.PNG)
+
 Even without data visualization, we can quickly get some key information by using the value_counts() and idxmax() functions.
 
 ## Discussion
