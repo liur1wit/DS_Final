@@ -35,10 +35,12 @@ Tools:
 
 Even without data visualization, we can quickly get some key information by using the value_counts() and idxmax() functions.
 
-![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/Yearly%20murdered.PNG）
+![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/Yearly%20murdered.PNG)
+
 Through the bar graph of crimes occurring in each year, we can find that there was no significant increase in cases between 1980 and 1999, and even a downward trend. However, since 2000, the number of cases has increased greatly; especially after the 2008 financial crisis, the number of cases reached a peak.
 
-![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/State.PNG）
+![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/State.PNG)
+
 We can find that the top three states with the most cases are California, Texas and New York. This also confirms that the more prosperous cities are also accompanied by more crimes, and at the same time, Texas law has led to the widespread use of guns among the people.
 
 
