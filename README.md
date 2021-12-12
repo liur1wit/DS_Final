@@ -2,13 +2,13 @@
 
 
 ## Introduction
-The reason for this project is to apply and practice the knowledge learned in Data Science Fundamental this semester. Through data analysis, discover the pattern between the criminal and the victim or the possible crime pattern to help people avoid possible risks.
+The reason for this project is to apply and practice the knowledge I learned in Data Science Fundamental this semester. Through data analysis and data visualization, discover the pattern between the perpetrator and the victim or the possible crime pattern to help people avoid possible risks.
 
 ## Selection of Data
 
 The model processing is conducted using a Jupyter Notebook and is available [here](https://github.com/liur1wit/DS_Final/blob/main/Final%20Project.ipynb).
 
-The data has over 638454 cases with 24 features. The data was compiled and made available by the Murder Accountability Project, founded by Thomas Hargrove. The dataset includes the age, race, gender, ethnicity of the victim and the perpetrator, as well as the relationship between the victim and the perpetrator and the weapon used. I use drop table to remove some columns that are not useful for the data analysis set.
+The data has over 638454 cases with 24 features. The data was compiled and made available by the Murder Accountability Project, founded by Thomas Hargrove. The dataset includes the age, race, gender, ethnicity of the victim and the perpetrator, as well as the relationship between the victim and the perpetrator and the weapon used. I use drop table to remove some columns that are not useful for the data analysis.
 The dataset can found online at [kaggle](https://www.kaggle.com/murderaccountability/homicide-reports)[4]. 
 
 Data preview: 
@@ -21,13 +21,18 @@ Since the contents of many columns in the original dataset are unchanged, it is 
 ## Methods
 
 Tools:
-- NumPy, and Pandas for data analysis and inference
+- NumPy, and Pandas for data analysis 
 - matplotlib.pyplot and seaborn for data visualization
 - GitHub for version control
 - Jupyter as IDE
 
 ## Results
 
+![data screenshot](./number of crimes.PNG)
+There were total 14663963 crimes happened during 1980 to 2014.
+
+![data screenshot](./dataset Overview.PNG)
+Even without data visualization, we can quickly get some key information by using the value_counts() and idxmax() functions.
 
 ## Discussion
 Experimenting with various feature engineering techniques and regression algorithms, I found that linear regression with one-hot encoding provided one of the highest accuracies despite its simpler nature. Across all these trials, my training accuracy was around 75% to 77%. Thus, I decided the deploy the pipelined linear regression model. The data was split 80/20 for testing and has a test accuracy of 73%. 
