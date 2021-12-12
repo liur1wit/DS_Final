@@ -21,27 +21,13 @@ Since the contents of many columns in the original dataset are unchanged, it is 
 ## Methods
 
 Tools:
-- NumPy, SciPy, Pandas, and Scikit-learn for data analysis and inference
-- Streamlit (st) for web app design
-- GitHub and Heroku for web app deployment and hosting/version control
-- VS Code as IDE
-
-Inference methods used with Scikit:
-- linear regression model
-- Features: OneHotEncoder/ColumnTransformer, StandardScaler, PolynomialFeatures and SimpleImputer for missing values
-- Pipeline to tie it all together
-- GridSearchCV for hyperparameter tuning
+- NumPy, and Pandas for data analysis and inference
+- matplotlib.pyplot and seaborn for data visualization
+- GitHub for version control
+- Jupyter as IDE
 
 ## Results
-The app is live at https://ds-example.herokuapp.com/
-It allows for online and batch processing as designed by the pycaret post:
-- Online: User inputs each feature manually for predicting a single insurance cost
-![online screenshot](./online.png)
-- Batch: It allows the user to upload a CSV file with the 6 features for predicting many instances at once. 
-  - An [X_test.csv](./X_test.csv) is provided as a batch processing sample. Corresponding insurance prices are available at [y_test.csv](./y_test.csv)
-![batch screenshot](./batch.png)
 
-I am not adding any visualizations to this example, though st supports it. Couple good examples are [here](https://share.streamlit.io/tylerjrichards/book_reco/books.py) and [here](https://share.streamlit.io/streamlit/demo-uber-nyc-pickups/)
 
 ## Discussion
 Experimenting with various feature engineering techniques and regression algorithms, I found that linear regression with one-hot encoding provided one of the highest accuracies despite its simpler nature. Across all these trials, my training accuracy was around 75% to 77%. Thus, I decided the deploy the pipelined linear regression model. The data was split 80/20 for testing and has a test accuracy of 73%. 
