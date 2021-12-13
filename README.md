@@ -43,16 +43,24 @@ Through the bar graph of crimes occurring in each year, we can find that there w
 
 We can find that the top three states with the most cases are California, Texas and New York. This also confirms that the more prosperous cities are also accompanied by more crimes, and at the same time, Texas law has led to the widespread use of guns among the people.
 
+![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/Gender.PNG)
+
+Through the bar graph on gender, we can clearly see that men account for a huge proportion of perpetrators. Male perpetrators has approximately 400,000 murders. By comparing the bar graphs, 300,000 crime victims were men and 100,000 crime victims were women.
+
+![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/weapon.PNG)
+
+We can find from the circular chart that the use of handgun in murder cases reached 49.7%. The criminals' choice to use handgun shows that it has good concealment and a high fatality rate.
+
+![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/relationship.PNG)
+
+Regarding the analysis of the relationship between the victim and the offender in the data set, another author's surprising discovery is that even though there are approximately 270,000 data in the data set that are unknown. But in the known relationships, acquaintances commit crimes the most, even more frequently than strangers commit crimes in our conventional knowledge.
+
+![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/ethnicity.PNG)
+
+In the comparison of crimes, we can find that the two most common cases are crimes of the same race.
 
 ## Discussion
-Experimenting with various feature engineering techniques and regression algorithms, I found that linear regression with one-hot encoding provided one of the highest accuracies despite its simpler nature. Across all these trials, my training accuracy was around 75% to 77%. Thus, I decided the deploy the pipelined linear regression model. The data was split 80/20 for testing and has a test accuracy of 73%. 
 
-I looked at some kaggle notebooks studying this problem and found this to be an acceptable level of success for this dataset. I am interested in analyzing the training data further to understand why a higher accuracy can't be easily achieved, especially with non-linear kernels. 
-
-One unexpected challenge was the free storage capacity offered by Heroku. I experimented with various versions of the libraries listed in `requirements.txt` to achieve a reasonable memory footprint. While I couldn't include the latest pycaret library due to its size, the current setup does include TensorFlow 2.3.1 (even though not utilized by this sample project) to illustrate how much can be done in Heroku's free tier: 
-```
-Warning: Your slug size (326 MB) exceeds our soft limit (300 MB) which may affect boot time.
-```
 
 ## Summary
 This sample project deploys a supervised regression model to predict insurance costs based on 6 features. After experimenting with various feature engineering techniques, the deployed model's testing accuracy hovers around 73%. 
