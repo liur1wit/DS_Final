@@ -2,7 +2,7 @@
 
 
 ## Introduction
-The reason for this project is to apply and practice the knowledge I learned in Data Science Fundamental this semester. Through data analysis and data visualization, discover the pattern between the perpetrator and the victim or the possible crime pattern to help people avoid possible risks.
+The reason for this project is to apply and practice the knowledge I learned in Data Science Fundamental this semester. Through data analysis and data visualization, discover the pattern between the perpetrator and the victim or the possible crime pattern to help people avoid possible risks. In the end, I found that some factors have higher risks, such as certain states, and even acquaintances who possess lethal weapons.
 
 ## Selection of Data
 
