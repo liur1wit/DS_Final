@@ -6,7 +6,7 @@ The reason for this project is to apply and practice the knowledge I learned in 
 
 ## Selection of Data
 
-The model processing is conducted using a Jupyter Notebook and is available [here](https://github.com/liur1wit/DS_Final/blob/main/Final%20Project.ipynb).
+The dataset processing is conducted using a Jupyter Notebook and is available [here](https://github.com/liur1wit/DS_Final/blob/main/Final%20Project.ipynb).
 
 The data has over 638454 cases with 24 features. The data was compiled and made available by the Murder Accountability Project, founded by Thomas Hargrove. The dataset includes the age, race, gender, ethnicity of the victim and the perpetrator, as well as the relationship between the victim and the perpetrator and the weapon used. I use drop table to remove some columns that are not useful for the data analysis.
 The dataset can found online at [kaggle](https://www.kaggle.com/murderaccountability/homicide-reports)[4]. 
