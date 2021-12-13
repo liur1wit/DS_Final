@@ -63,6 +63,8 @@ In the comparison of crimes, we can find that the two most common cases are crim
 
 In the process of data analysis and data visualization, we can find that the occurrence of homicide cases is related to the historical background. For example, economic crises, racial antagonisms, or terrorist attacks are among the causes that directly or indirectly lead to homicides.
 
+In this project, I did not apply any machine learning model. I hope to further improve this project in the future and predict possible crimes through AI.
+
 If you are in a state with a high number of homicides, please be extra careful. The danger may be around, make friends cautiously, and pay attention to any signs before a crisis occurs.
 
 ## Summary
