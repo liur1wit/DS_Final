@@ -49,11 +49,11 @@ Through the bar graph on gender, we can clearly see that men account for a huge 
 
 ![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/weapon.PNG)
 
-We can find from the circular chart that the use of handgun in murder cases reached 49.7%. The criminals' choice to use handgun shows that it has good concealment and a high fatality rate.
+We can find from the pie chart that the use of handgun in murder cases reached 49.7%. The criminals' choice to use handgun shows that it has good concealment and a high fatality rate.
 
 ![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/relationship.PNG)
 
-Regarding the analysis of the relationship between the victim and the offender in the data set, another author's surprising discovery is that even though there are approximately 270,000 data in the data set that are unknown. But in the known relationships, acquaintances commit crimes the most, even more frequently than strangers commit crimes in our conventional knowledge.
+Regarding the analysis of the relationship between the victim and the perpetrators in the dataset, another author's surprising discovery is that even though there are approximately 270,000 data in the data set that are unknown. But in the known relationships, acquaintances commit crimes the most, even more frequently than strangers commit crimes in our conventional knowledge.
 
 ![data screenshot](https://github.com/liur1wit/DS_Final/blob/main/ethnicity.PNG)
 
@@ -61,23 +61,22 @@ In the comparison of crimes, we can find that the two most common cases are crim
 
 ## Discussion
 
+In the process of data analysis and data visualization, we can find that the occurrence of homicide cases is related to the historical background. For example, economic crises, racial antagonisms, or terrorist attacks are among the causes that directly or indirectly lead to homicides.
+
+If you are in a state with a high number of homicides, please be extra careful. The danger may be around, make friends cautiously, and pay attention to any signs before a crisis occurs.
 
 ## Summary
-This sample project deploys a supervised regression model to predict insurance costs based on 6 features. After experimenting with various feature engineering techniques, the deployed model's testing accuracy hovers around 73%. 
 
-The web app is designed using Streamlit, and can do online and batch processing, and is deployed using Heroku and Streamlit. The Heroku app is live at https://ds-example.herokuapp.com/.
- 
-Streamlit is starting to offer free hosting as well. The same repo is also deployed at [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/memoatwit/dsexample/app.py)  
-More info about st hosting is [here](https://docs.streamlit.io/en/stable/deploy_streamlit_app.html).
+Through the analysis and comparison of the victim’s gender, interpersonal relationship and weapon use, we can discover some of the higher risk factors. For example, states with higher homicide rates or people with dangerous weapons.
 
 
 ## References
-[1] [GitHub Integration (Heroku GitHub Deploys)](https://devcenter.heroku.com/articles/github-integration)
+[1] [Matplotlib - Bar Plot](https://www.tutorialspoint.com/matplotlib/matplotlib_bar_plot.htm)
 
-[2] [Streamlit](https://www.streamlit.io/)
+[2] [Panda API reference](https://pandas.pydata.org/docs/reference)
 
-[3] [The pycaret post](https://towardsdatascience.com/build-and-deploy-machine-learning-web-app-using-pycaret-and-streamlit-28883a569104)
+[3] [Basic pie chart](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_features.html)
 
-[4] [Insurance dataset: git](https://github.com/stedy/Machine-Learning-with-R-datasets)
+[4] [Data Science Project Sample](https://github.com/memoatwit/dsexample)
 
-[5] [Insurance dataset: kaggle](https://www.kaggle.com/mirichoi0218/insurance)
+[5] [Homicide Reports, 1980-2014: Kaggle](https://www.kaggle.com/murderaccountability/homicide-reports)
