@@ -24,7 +24,7 @@ Tools:
 - NumPy, and Pandas for data analysis 
 - matplotlib.pyplot and seaborn for data visualization
 - GitHub for version control
-- Jupyter as IDE
+- Jupyter Notebook as IDE
 
 ## Results
 
