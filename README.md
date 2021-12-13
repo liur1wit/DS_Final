@@ -67,7 +67,7 @@ If you are in a state with a high number of homicides, please be extra careful. 
 
 ## Summary
 
-Through the analysis and comparison of the victim’s gender, interpersonal relationship and weapon use, we can discover some of the higher risk factors. For example, states with higher homicide rates or people with dangerous weapons. In conclusion, try to ensure rational thinking and observation of the environment when you are unfamiliar or familiar.
+Through the analysis and comparison of the victim’s gender, interpersonal relationship and weapon use, we can discover some of the higher risk factors. For example, states with higher homicide rates or people with dangerous weapons. In conclusion, try to ensure rational thinking and observation of the environment all the time.
 
 
 ## References
